@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorben's portfolio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+          crossorigin="anonymous"
+    />
+</head>
+<body>
+
+<div class="mt-5 mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+                <section id="name">
+                    <h1 style="margin-bottom: 43px;">Jorben van der Wal</h1>
+                </section>
+
+                <section id="social">
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-2"><i class="fab fa-github"></i></div>
+                                <div class="col-10"><a target="_blank" href="https://github.com/ggjorven">github.com/ggjorven</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-2"><i class="fas fa-at"></i></div>
+                                <div class="col-10"><a target="_blank" href="mailto:jorbenvanderwal@gmail.com">jorbenvanderwal@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section id="education">
+                    <h2>Education</h2>
+
+                    <h4>Student at OGMF Campus</h4>
+                    <h5>Secondary School</h5>
+
+                </section>
+
+                <section id="skills">
+                    <h2>Skills</h2>
+
+                    <div class="row">
+                        <div class="col-4 font-weight-bold">EXPERIENCED</div>
+                        <h4 class="col-8">C++, C, Vulkan</h4>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 font-weight-bold">PROFICIENT</div>
+                        <h4 class="col-8">GLSL, Python, OpenGL</h4>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 font-weight-bold">ENTRY-LEVEL</div>
+                        <h4 class="col-8">SQL</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-6">
+                
+                <section id="projects">
+                    <h2>Projects</h2>
+
+                    <a href="https://github.com/ggjorven/Lavender" target="_blank">
+                        <h3>Lavender</h3>
+                    </a>
+
+                    This Vulkan 3D Game Engine is a personal project developed using C++ and the Vulkan graphics API. 
+                    Designed from the ground up to explore the capabilities of low-level graphics programming, this engine focuses on 
+                    providing a raw and direct interface for rendering operations in a 3D space.
+
+                    <hr>
+
+                    <a href="https://github.com/ggjorven/Horizon" target="_blank">
+                        <h3>Horizon</h3>
+                    </a>
+
+                    Horizon is a rendering library written in C++20 using the Vulkan API. 
+                    The project was written to have near zero impact on Vulkan initialization and use.
+                    The project is very simple, but written to be easily expandable.
+
+                    <hr>
+
+
+                    <a href="https://github.com/ggjorven/Pulse" target="_blank">
+                        <h3>Pulse</h3>
+                    </a>
+
+                    Pulse is a versatile C++ utility library designed to streamline common tasks and enhance the efficiency 
+                    of your development workflow. Built with C++20, it leverages the latest features and improvements of the 
+                    language to provide a modern and powerful toolkit.
+
+                    <hr>
+
+                    <a href="https://github.com/ggjorven/Dynamite" target="_blank">
+                        <h3>Dynamite</h3>
+                    </a>
+
+                    Dynamite is a new programming language based on C++, designed for creating powerful and efficient applications. 
+
+                </section>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+
+        color: #262626;
+        background-color: #e0e0e0;
+    }
+
+    @media print {
+        body {
+            width: 21cm;
+            height: 29.7cm;
+            /*margin: 30mm 45mm 30mm 45mm;*/
+            /* change the margins as you want them to be. */
+        }
+
+        a {
+        text-decoration: none;
+        }
+    }
+
+    section {
+        margin: 2em 0;
+    }
+
+    h2 {
+        padding-bottom: 10px;
+        border-bottom: 2px solid #333;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    a {
+        color: initial;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:hover > * {
+        color: #22465f;
+    }
+
+    i {
+        font-size: 1.4em;
+    }
+
+</style>
+
+</html>
